@@ -1,0 +1,210 @@
+.logo{
+    filter: drop-shadow(10px 20px 5px);
+    margin: auto;
+    width: 248px;
+    height: 214px;
+    top: 27px;
+    left: 131px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding: 0%;
+    font-family: Raleway;
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Raleway";
+
+    font-weight: 900;
+    background: linear-gradient(#33A8DB #1472B7);
+}
+
+
+.banner {
+    background: url('banner.png') center/cover no-repeat, linear-gradient(to left,#31A8DD,  #000000 60%);
+    Border: 1px solid #33A8DB;
+
+}
+
+
+/*botão superior*/
+.banner button{
+
+    font-size: 20px;
+    font-weight: 900;
+    display: block;
+    background-color: transparent;
+    border-color: #31A8DD;
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 100px;
+    margin: auto; 
+    letter-spacing: 2px;
+    
+}
+.banner button a{
+    color: #31A8DD;
+    text-decoration: none;
+    font-family: Raleway;
+}
+
+
+/*A nova Trilha de CSS da DIO está...*/
+.banner p{ 
+    font-family: Raleway;
+    font-size: 20px;
+    text-align: auto;
+    align-items: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+/*TRILHA DE CSS DA DIO*/
+.banner h1{
+    display: block;
+    background: linear-gradient(#33A8DB, #1472B7); /* Gradiente de azul para azul claro para cabeçalhos h1 */
+    -webkit-background-clip: text; /* Para navegadores WebKit (como Chrome e Safari) */
+    color: transparent; /* Torna o texto transparente para que o gradiente seja visível */
+    background-clip: text; /* Define o recorte do fundo como texto */
+    font-size: 40px;
+}
+
+.banner p{
+    font-family: Raleway;
+}
+
+body{
+    background-color: black;
+}
+
+
+.dio-logo {
+    display: block;
+    align-items: center;
+    margin: auto;
+    width: 310px;
+    height: 44px;
+    top: 59px;
+    left: 565px;
+}
+
+#professional-challenges img{
+    display: block;
+    margin: auto;
+    align-items: center;
+
+}
+
+#professional-challenges h2{
+    display: block;
+    color: #33A8DB;
+    text-align: center;
+    font-family: Raleway;
+    size: 100px;
+    padding-left: 350px;
+    padding-right: 350px;
+    letter-spacing: 5px;
+}
+
+#professional-challenges p{
+    font-size: 13px;
+    font-family: Raleway;
+    text-align: center;
+    margin-left:  200px;
+    margin-right: 200px;
+
+}
+
+
+#transform-world{
+    background-image: url("../images/woman-code.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    Height: 500px;
+    Border: 1px solid #33A8DB;
+
+}
+
+#transform-world p{
+    display: block;
+    font-family: Raleway;
+    text-align: left;
+    width: 244px;
+    height: 141px;
+    font-size: 30px;
+    font-weight: 900px;
+    padding-left: 200px;
+    padding-top: 220px;
+    text-shadow: 5px 5px 3px #33A8DB;
+
+}
+#couse-content{
+    display: block;
+    width: 792px;
+    height: 38px;
+}
+
+#course-content h2{ /* O QUE VOU APRENDER? */
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 32px;
+    letter-spacing: 19%;
+    text-align: center;
+
+
+}
+/* Temos 3 módulos recheados de conteúdos do básico*/
+#course-content p{ 
+    font-size: 16px;
+    font-family: Raleway;
+    text-align: center;
+    margin-left:  200px;
+    margin-right: 200px;
+}
+
+
+
+.modules-list div{
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 12px;
+    font-size: 15px;
+    color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #33A8DB;
+    background-color: #252525;
+}
+
+.modules-list span{
+    color: #33A8DB;
+}
+
+.rodape {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border-top: 1px solid #33A8DB;;
+    background: linear-gradient(
+        rgba(51, 168, 219, 0), /* Ajuste a opacidade aqui */
+        rgba(51, 168, 219, 0.1) 100%,
+        rgba(51, 168, 219, 0.3) 30%,
+        rgba(51, 168, 219, 0.5) 50%,
+        rgba(51, 168, 219, 0.7) 70%,
+        rgba(51, 168, 219, 0.9) 90%,
+        rgba(51, 168, 219, 1)
+    );
+}
+
+
